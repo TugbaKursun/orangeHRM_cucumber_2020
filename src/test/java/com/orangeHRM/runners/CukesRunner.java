@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
             tags = "@smoke",
             features = "src/test/resources/features",
             glue = "com/orangeHRM/step_definitions",
-            dryRun = true,
+            dryRun = false,
             plugin =
                     {"json:target/cucumber.json",
                      "html:target/default-cucumber-reports",

@@ -18,7 +18,7 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user logs in as an admin",
@@ -28,17 +28,19 @@ formatter.match({
   "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user verifies that \"Dashboard\" page subtitle is displayed",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "Login_StepDefinition.user_verifies_that_page_subtitle_is_displayed(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 });
