@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-23T19:26:06.011Z",
+        "before": [
+          {
+            "result": {
+              "duration": 405248,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login as an admin",
+        "description": "",
+        "id": "login;login-as-an-admin",
+        "after": [
+          {
+            "result": {
+              "duration": 16446,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 785921,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user verifies that \"Dashboard\" page subtitle is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Admin"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As an user I want to login with different credentials",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
