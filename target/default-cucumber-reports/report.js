@@ -31,7 +31,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies that \"Dashboard\" page subtitle is displayed",
+  "name": "user verifies that \"Welcome Admin\" page subtitle is displayed",
   "keyword": "Then "
 });
 formatter.match({

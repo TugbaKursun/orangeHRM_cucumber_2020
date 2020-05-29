@@ -22,8 +22,8 @@ public class LoginPage extends BasePage {
    @FindBy (id = "btnLogin")
     public WebElement loginButton;
 
-   @FindBy (linkText = "Welcome Admin")
-   public WebElement firstDisplayPage;
+   @FindBy (xpath = "//a[@id='welcome']")
+   public WebElement userIcon;
 
    public void login(){
        String adminUsername = ConfigurationReader.getProperty("adminUserName");
@@ -33,7 +33,7 @@ public class LoginPage extends BasePage {
        loginButton.click();
    }
 
-   public void verifyFirstPage(){
-       firstDisplayPage.getText();
+   public String getText(WebElement element){
+       return element.getText();
    }
 }

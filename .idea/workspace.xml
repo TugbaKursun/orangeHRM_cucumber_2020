@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="385cec8a-61de-45e2-a4ef-4475fd87299c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/FailedRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Login_StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Login_StepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/orangeHRM_cucumber_2020.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/step_definitions/Login_StepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/step_definitions/Login_StepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/utilities/BrowserUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/utilities/BrowserUtils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/utilities/BrowserUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/utilities/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/utilities/ConfigurationReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/utilities/Driver.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +37,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
-  </component>
   <component name="ProjectId" id="1cK2UF0tpnL3S19VaLR0nZS1Llm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,6 +48,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.orangeHRM.runners" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -114,7 +107,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

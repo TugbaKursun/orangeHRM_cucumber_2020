@@ -1,5 +1,6 @@
 package com.orangeHRM.step_definitions;
 import com.orangeHRM.pages.LoginPage;
+import com.orangeHRM.utilities.BrowserUtils;
 import com.orangeHRM.utilities.ConfigurationReader;
 import com.orangeHRM.utilities.Driver;
 import io.cucumber.java.en.*;
@@ -18,13 +19,10 @@ public class Login_StepDefinition {
 
     @Then("user verifies that {string} page name is displayed")
     public void user_verifies_that_page_name_is_displayed(String string) {
-        Assert.assertEquals("Welcome Admin","loginPage.verifyFirstPage()");
+        Assert.assertEquals(string,loginPage.getText(loginPage.userIcon));
     }
 
-    @Then("user verifies that {string} page subtitle is displayed")
-    public void user_verifies_that_page_subtitle_is_displayed(String string) {
 
-    }
 
 
 }

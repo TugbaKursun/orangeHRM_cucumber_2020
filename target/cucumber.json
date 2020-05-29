@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-23T19:45:02.579Z",
+        "start_timestamp": "2020-05-29T01:30:54.048Z",
         "before": [
           {
             "result": {
-              "duration": 10695212310,
+              "duration": 2041087442,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 86510079,
+              "duration": 110279995,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2980318444,
+              "duration": 12426754301,
               "status": "passed"
             },
             "line": 6,
@@ -47,15 +47,15 @@
           },
           {
             "result": {
-              "duration": 905230,
+              "duration": 769877,
               "status": "passed"
             },
             "line": 7,
-            "name": "user verifies that \"Dashboard\" page subtitle is displayed",
+            "name": "user verifies that \"Welcome Admin\" page subtitle is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Dashboard\"",
+                  "val": "\"Welcome Admin\"",
                   "offset": 19
                 }
               ],

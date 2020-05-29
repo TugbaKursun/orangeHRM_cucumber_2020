@@ -33,7 +33,7 @@ public class Hook {
                 scenario.embed(image, "image/png");
             }
             Driver.closeDriver();
-            System.out.println("AFTER");
+            System.out.println("Driver is closed");
         }
 
 
