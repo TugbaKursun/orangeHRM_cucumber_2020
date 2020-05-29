@@ -3,11 +3,50 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-29T01:30:54.048Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2324850381,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5889909735,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-29T03:47:14.042Z",
         "before": [
           {
             "result": {
-              "duration": 2041087442,
+              "duration": 1883140310,
               "status": "passed"
             },
             "match": {
@@ -15,14 +54,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Login as an admin",
+        "line": 7,
+        "name": "user hovers on User Management",
         "description": "",
-        "id": "login;login-as-an-admin",
+        "id": "user-management;user-hovers-on-user-management",
         "after": [
           {
             "result": {
-              "duration": 110279995,
+              "duration": 134884512,
               "status": "passed"
             },
             "match": {
@@ -35,50 +74,53 @@
         "steps": [
           {
             "result": {
-              "duration": 12426754301,
+              "duration": 5159416476,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user logs in as an admin",
+            "line": 8,
+            "name": "user hovers on \"User Management\" submodule",
             "match": {
-              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+              "arguments": [
+                {
+                  "val": "\"User Management\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 769877,
+              "duration": 5025644156,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user verifies that \"Welcome Admin\" page subtitle is displayed",
+            "line": 9,
+            "name": "user  verifies that \"Users\" submodule is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Welcome Admin\"",
-                  "offset": 19
+                  "val": "\"Users\"",
+                  "offset": 20
                 }
               ],
-              "location": "Login_StepDefinition.user_verifies_that_page_subtitle_is_displayed(String)"
+              "location": "UserManagement_StepDefinition.user_verifies_that_submodule_is_displayed(String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Admin"
-          },
-          {
-            "name": "@smoke"
+            "name": "@hovers"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "  As an user I want to login with different credentials",
-    "id": "login",
+    "name": "user management",
+    "description": "",
+    "id": "user-management",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
+    "uri": "file:src/test/resources/features/Admin/UserManagement.feature",
     "tags": []
   }
 ]

@@ -4,4 +4,4 @@ Feature: Login
   @Admin @smoke
   Scenario: Login as an admin
     When user logs in as an admin
-    Then user verifies that "Dashboard" page subtitle is displayed
+    Then user verifies that "Welcome Admin" page subtitle is displayed
