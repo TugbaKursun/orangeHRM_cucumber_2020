@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
     @CucumberOptions(
 
-            tags = "@hovers",
+            tags = "@searchUser",
             features = "src/test/resources/features",
             glue = "com/orangeHRM/step_definitions",
             dryRun = false,
