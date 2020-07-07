@@ -7,10 +7,7 @@ import org.apache.http.util.Asserts;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class UserManagement_StepDefinition {
 
@@ -169,15 +166,14 @@ public class UserManagement_StepDefinition {
             Assert.assertTrue(usernameList[i].equals(newList[i]));
 */
 
-      List<String> newList = new ArrayList<String>(Arrays.<String>asList(BrowserUtils.getListOfString(userManagementPage.userNames)));
-
-      for(String each:newList){
-          for(String eachUsername: usernameList) {
-
-              Assert.assertTrue("The employee table is not alphabetically ordered",each.equals(eachUsername));
-
-          }
-      }
+//      List<String> newList = new ArrayList<String>((Collection<? extends String>) Collections.singletonList(BrowserUtils.getListOfString(userManagementPage.userNames)));
+//
+//      for(String each:newList){
+//          for(String eachUsername: usernameList) {
+//
+//              Assert.assertTrue("The employee table is not alphabetically ordered",each.equals(eachUsername));
+//
+//          //  }
 
         }
 
