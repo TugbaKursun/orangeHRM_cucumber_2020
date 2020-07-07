@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import static org.junit.Assert.assertTrue;
 
@@ -491,7 +492,7 @@ public class BrowserUtils {
      * @param listOfWebElements
      * @return list of strings
      */
-    public static List<String> getListOfString(List<WebElement> listOfWebElements) {
+    public static Collection<? extends String> getListOfString(List<WebElement> listOfWebElements) {
         List<String> listOfStrings = new ArrayList<>();
         for (WebElement element : listOfWebElements) {
             String value = element.getText().trim();

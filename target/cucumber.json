@@ -11,8 +11,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2145040974,
-              "status": "passed"
+              "duration": 595038,
+              "status": "skipped"
             },
             "line": 4,
             "name": "user logs in as an admin",
@@ -23,8 +23,8 @@
           },
           {
             "result": {
-              "duration": 758266314,
-              "status": "passed"
+              "duration": 470090,
+              "status": "skipped"
             },
             "line": 5,
             "name": "user clicks on \"Admin\" module",
@@ -42,144 +42,27 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-30T02:17:04.750Z",
+        "start_timestamp": "2020-06-04T03:42:09.102Z",
         "before": [
           {
             "result": {
-              "duration": 1954160661,
-              "status": "passed"
+              "duration": 326503,
+              "status": "skipped"
             },
             "match": {
               "location": "Hook.setup()"
             }
           }
         ],
-        "line": 20,
-        "name": "admin can be able to search a user with hannah.flores and Hannah Flores",
-        "description": "                    then verifies \u003cEmployeeName\u003e on User Management page",
-        "id": "user-management;admin-can-be-able-to-search-a-user-with-\u003cusername\u003e-and-\u003cemployeename\u003e;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 123152988,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.teardown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5518538135,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "admin search Employee info by using  \"hannah.flores\" and \"Hannah Flores\":",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hannah.flores\"",
-                  "offset": 37
-                },
-                {
-                  "val": "\"Hannah Flores\"",
-                  "offset": 57
-                }
-              ],
-              "location": "UserManagement_StepDefinition.admin_search_Employee_info_by_using_and(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5052581247,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "admin verifies that employee name \"Hannah Flores\" is displayed on User Management page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Hannah Flores\"",
-                  "offset": 34
-                }
-              ],
-              "location": "UserManagement_StepDefinition.admin_verifies_that_employee_name_is_displayed_on_User_Management_page(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@searchUser"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
+        "line": 80,
+        "name": "sorting user name on employee list from the table on usermanagement page",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2166109760,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user logs in as an admin",
-            "match": {
-              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 833031404,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks on \"Admin\" module",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Admin\"",
-                  "offset": 15
-                }
-              ],
-              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-05-30T02:17:20.345Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1175541993,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.setup()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "admin can be able to search a user with robert.craig and Robert Craig",
-        "description": "                    then verifies \u003cEmployeeName\u003e on User Management page",
-        "id": "user-management;admin-can-be-able-to-search-a-user-with-\u003cusername\u003e-and-\u003cemployeename\u003e;;3",
+        "id": "user-management;sorting-user-name-on-employee-list-from-the-table-on-usermanagement-page",
         "after": [
           {
             "result": {
-              "duration": 112286298,
-              "status": "passed"
+              "duration": 10663,
+              "status": "skipped"
             },
             "match": {
               "location": "Hook.teardown(Scenario)"
@@ -187,52 +70,66 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5541961100,
-              "status": "passed"
+              "duration": 1410594,
+              "status": "skipped"
             },
-            "line": 15,
-            "name": "admin search Employee info by using  \"robert.craig\" and \"Robert Craig\":",
+            "line": 81,
+            "name": "user hovers on \"User Management\" submodule",
             "match": {
               "arguments": [
                 {
-                  "val": "\"robert.craig\"",
-                  "offset": 37
-                },
-                {
-                  "val": "\"Robert Craig\"",
-                  "offset": 56
+                  "val": "\"User Management\"",
+                  "offset": 15
                 }
               ],
-              "location": "UserManagement_StepDefinition.admin_search_Employee_info_by_using_and(String,String)"
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
             },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 342009,
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "user clicks on \"Users\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Users\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 83,
+            "name": "user clicks on username triangle arrow",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5045124524,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 16,
-            "name": "admin verifies that employee name \"Robert Craig\" is displayed on User Management page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Robert Craig\"",
-                  "offset": 34
-                }
-              ],
-              "location": "UserManagement_StepDefinition.admin_verifies_that_employee_name_is_displayed_on_User_Management_page(String)"
-            },
+            "line": 84,
+            "name": "user verify that user names are alphabetically ordered in the table",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@searchUser"
+            "name": "@sortAlphabetically"
           }
         ]
       }
