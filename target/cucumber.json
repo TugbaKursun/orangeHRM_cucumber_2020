@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 595038,
-              "status": "skipped"
+              "duration": 2974824121,
+              "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "user logs in as an admin",
             "match": {
               "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 470090,
-              "status": "skipped"
+              "duration": 498142030,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user clicks on \"Admin\" module",
             "match": {
               "arguments": [
@@ -38,31 +38,1499 @@
               "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157038778,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267029337,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-04T03:42:09.102Z",
+        "start_timestamp": "2020-07-23T15:01:03.798Z",
         "before": [
           {
             "result": {
-              "duration": 326503,
-              "status": "skipped"
+              "duration": 1613252097,
+              "status": "passed"
             },
             "match": {
               "location": "Hook.setup()"
             }
           }
         ],
-        "line": 80,
-        "name": "sorting user name on employee list from the table on usermanagement page",
+        "line": 19,
+        "name": "admin can be able to add person with description",
         "description": "",
-        "id": "user-management;sorting-user-name-on-employee-list-from-the-table-on-usermanagement-page",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-add-person-with-description;;2",
         "after": [
           {
             "result": {
-              "duration": 10663,
-              "status": "skipped"
+              "duration": 104834531,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 67959531,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin clicks add button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102230128,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "admin adds an employee with \"Yedi Cuceler\" and it\u0027s \"7 Years Experience\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yedi Cuceler\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"7 Years Experience\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_adds_an_employee_with_and_it_s(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 337858579,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "admin clicks the save button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_the_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74694098,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "admin verifies that \"Yedi Cuceler\" and \"7 Years Experience\" are displayed in the Skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yedi Cuceler\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"7 Years Experience\"",
+                  "offset": 39
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_verifies_that_and_are_displayed_in_the_Skills_table(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@ADDSKILLS"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2926561059,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 688014847,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142124197,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 271626660,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:01:10.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 917333327,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "admin can be able to add person with description",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-add-person-with-description;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 100283022,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63012182,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin clicks add button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118319638,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "admin adds an employee with \"Rapunzel\" and it\u0027s \"3 Years Experience\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rapunzel\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"3 Years Experience\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_adds_an_employee_with_and_it_s(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 347207103,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "admin clicks the save button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_the_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89155671,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "admin verifies that \"Rapunzel\" and \"3 Years Experience\" are displayed in the Skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rapunzel\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"3 Years Experience\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_verifies_that_and_are_displayed_in_the_Skills_table(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@ADDSKILLS"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2789167012,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 565914589,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151611791,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265746145,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:01:15.707Z",
+        "before": [
+          {
+            "result": {
+              "duration": 966476537,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "admin can be able to add person with description",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-add-person-with-description;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 98187630,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 62422877,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin clicks add button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97991973,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "admin adds an employee with \"Heidi\" and it\u0027s \"1 Year Experience\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Heidi\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1 Year Experience\"",
+                  "offset": 45
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_adds_an_employee_with_and_it_s(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 343797126,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "admin clicks the save button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_the_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113852832,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "admin verifies that \"Heidi\" and \"1 Year Experience\" are displayed in the Skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Heidi\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"1 Year Experience\"",
+                  "offset": 32
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_verifies_that_and_are_displayed_in_the_Skills_table(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@ADDSKILLS"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2472684464,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 582382154,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142640386,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302933716,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:01:21.166Z",
+        "before": [
+          {
+            "result": {
+              "duration": 915818375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "admin can be able to add person with description",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-add-person-with-description;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 100680143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63181135,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin clicks add button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104111325,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "admin adds an employee with \"Sirinler\" and it\u0027s \"4 Year Experience\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sirinler\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"4 Year Experience\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_adds_an_employee_with_and_it_s(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 589597711,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "admin clicks the save button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_the_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135644189,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "admin verifies that \"Sirinler\" and \"4 Year Experience\" are displayed in the Skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sirinler\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"4 Year Experience\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_verifies_that_and_are_displayed_in_the_Skills_table(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@ADDSKILLS"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2516361651,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 720351233,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134080531,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 285477474,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:01:26.579Z",
+        "before": [
+          {
+            "result": {
+              "duration": 878837468,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "admin can be able to add person with description",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-add-person-with-description;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 94921403,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63891293,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin clicks add button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96664637,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "admin adds an employee with \"Kirmizi Kiz\" and it\u0027s \"2 Year Experience\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kirmizi Kiz\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"2 Year Experience\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_adds_an_employee_with_and_it_s(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 784954688,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "admin clicks the save button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_the_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149985310,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "admin verifies that \"Kirmizi Kiz\" and \"2 Year Experience\" are displayed in the Skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kirmizi Kiz\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"2 Year Experience\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_verifies_that_and_are_displayed_in_the_Skills_table(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@ADDSKILLS"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4072471357,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 756896727,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141361146,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 303431236,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:01:32.308Z",
+        "before": [
+          {
+            "result": {
+              "duration": 884087797,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "admin can be able to add person with description",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-add-person-with-description;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 102265349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63535983,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "admin clicks add button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98152011,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "admin adds an employee with \"Ali Baba\" and it\u0027s \"10 Year Experience\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali Baba\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"10 Year Experience\"",
+                  "offset": 48
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_adds_an_employee_with_and_it_s(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 412310295,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "admin clicks the save button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_the_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167889575,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "admin verifies that \"Ali Baba\" and \"10 Year Experience\" are displayed in the Skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali Baba\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"10 Year Experience\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_verifies_that_and_are_displayed_in_the_Skills_table(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@ADDSKILLS"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2566810422,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 896831774,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138992740,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266755147,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:01:39.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 894763006,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "admin can be able to delete employees information from the skills table",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-delete-employees-information-from-the-skills-table;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 96998092,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5049366981,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "admin clicks on \"Heidi\" from the skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Heidi\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_clicks_on_from_the_skills_table(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 321784201,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "admin clicks on delete button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_on_delete_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90842079,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "admin verifies that \"Heidi\" is not displayed in the skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Heidi\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_verifies_that_is_not_displayed_in_the_skills_table(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@deleteEmployee"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2265903422,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 827187866,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146111286,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 272392705,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:01:49.643Z",
+        "before": [
+          {
+            "result": {
+              "duration": 882524568,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "admin can be able to delete employees information from the skills table",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-delete-employees-information-from-the-skills-table;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 99789416,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5050635420,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "admin clicks on \"Yedi Cuceler\" from the skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yedi Cuceler\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_clicks_on_from_the_skills_table(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 327682724,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "admin clicks on delete button",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_on_delete_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76621764,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "admin verifies that \"Yedi Cuceler\" is not displayed in the skills table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yedi Cuceler\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Skills_StepDefinition.admin_verifies_that_is_not_displayed_in_the_skills_table(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@deleteEmployee"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3329576347,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 536021160,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141486514,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322607739,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:01:59.595Z",
+        "before": [
+          {
+            "result": {
+              "duration": 934951591,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "admin can be able to check all employees\u0027 checkBox",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-check-all-employees--checkbox",
+        "after": [
+          {
+            "result": {
+              "duration": 93979292,
+              "status": "passed"
             },
             "match": {
               "location": "Hook.teardown(Scenario)"
@@ -74,15 +1542,86 @@
         "steps": [
           {
             "result": {
-              "duration": 1410594,
-              "status": "skipped"
+              "duration": 61779808,
+              "status": "passed"
             },
-            "line": 81,
-            "name": "user hovers on \"User Management\" submodule",
+            "line": 38,
+            "name": "admin clicks all checkbox  on the Skills table",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_all_checkbox_on_the_Skills_table()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25115347373,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "admin verifies that all name of employees is selected",
+            "match": {
+              "location": "Skills_StepDefinition.admin_verifies_that_all_name_of_employees_is_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@selectAllEmployees"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4868031725,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 615046927,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
             "match": {
               "arguments": [
                 {
-                  "val": "\"User Management\"",
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137850165,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
                   "offset": 15
                 }
               ],
@@ -92,53 +1631,384 @@
           },
           {
             "result": {
-              "duration": 342009,
-              "status": "skipped"
+              "duration": 270003986,
+              "status": "passed"
             },
-            "line": 82,
-            "name": "user clicks on \"Users\" submodule",
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Users\"",
+                  "val": "\"Skills\"",
                   "offset": 15
                 }
               ],
               "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
             },
             "keyword": "Then "
-          },
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:02:30.134Z",
+        "before": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 852008447,
+              "status": "passed"
             },
-            "line": 83,
-            "name": "user clicks on username triangle arrow",
-            "match": {},
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "admin can be able to unselect all employees checkbox on the skill table",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-unselect-all-employees-checkbox-on-the-skill-table",
+        "after": [
+          {
+            "result": {
+              "duration": 89156383,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5077835812,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "admin clicks all checkbox to unselect all employees",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_all_checkbox_to_unselect_all_employees()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 84940496,
+              "status": "passed"
             },
-            "line": 84,
-            "name": "user verify that user names are alphabetically ordered in the table",
-            "match": {},
+            "line": 44,
+            "name": "admin verifies that all names are unselected",
+            "match": {
+              "location": "Skills_StepDefinition.admin_verifies_that_all_names_are_unselected()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@sortAlphabetically"
+            "name": "@skills"
+          },
+          {
+            "name": "@unselectedAllEMployees"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2283387598,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 533004915,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 140223964,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261086548,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:02:42.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 859970614,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "admin can be able to unselect specific checkbox on skill table",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-unselect-specific-checkbox-on-skill-table",
+        "after": [
+          {
+            "result": {
+              "duration": 91808412,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5094381010,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "admin clicks any checkbox",
+            "match": {
+              "location": "Skills_StepDefinition.admin_clicks_any_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9816936,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "admin verifies that sprecific checkbox is unselected",
+            "match": {
+              "location": "Skills_StepDefinition.admin_verifies_that_sprecific_checkbox_is_unselected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@unSelectOneCheckBox"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2499309021,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "Login_StepDefinition.user_logs_in_as_an_admin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 453319474,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"Admin\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_module(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136740639,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hovers on \"Qualifications\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Qualifications\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_hovers_on_submodule(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304176554,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Skills\" submodule",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Skills\"",
+                  "offset": 15
+                }
+              ],
+              "location": "UserManagement_StepDefinition.user_clicks_on_submodule(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T15:02:51.409Z",
+        "before": [
+          {
+            "result": {
+              "duration": 839108055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "admin can be able to delete employee information from the skills table",
+        "description": "",
+        "id": "user-should-be-able-to-add-employee-on-skills-page;admin-can-be-able-to-delete-employee-information-from-the-skills-table",
+        "after": [
+          {
+            "result": {
+              "duration": 92966517,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3395741638,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "admin deletes employees from skills table by clicking select all checkbox",
+            "match": {
+              "location": "Skills_StepDefinition.admin_deletes_employees_from_skills_table_by_clicking_select_all_checkbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19346757,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "admin verifies that all employees are deleted",
+            "match": {
+              "location": "Skills_StepDefinition.admin_verifies_that_all_employees_are_deleted()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@skills"
+          },
+          {
+            "name": "@deleteAll"
           }
         ]
       }
     ],
-    "name": "user management",
+    "name": "user should be able to add employee on skills page",
     "description": "",
-    "id": "user-management",
+    "id": "user-should-be-able-to-add-employee-on-skills-page",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Admin/UserManagement.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/Admin/Qualification/Skills.feature",
+    "tags": [
+      {
+        "name": "@skills",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

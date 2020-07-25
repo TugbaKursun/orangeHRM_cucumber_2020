@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="385cec8a-61de-45e2-a4ef-4475fd87299c" name="Default Changelist" comment="" />
+    <list default="true" id="385cec8a-61de-45e2-a4ef-4475fd87299c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/Qualifications/SkillsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Admin_StepDefinitions/Qualifications/Skills_StepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Admin/Qualification/Skills.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/orangeHRM/runners/CukesRunner.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/Qualifications/SkillsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/CukesRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="19">
+              <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Admin/Qualification/Skills.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Admin_StepDefinitions/Qualifications/Skills_StepDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="67" column="66" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,9 +89,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/utilities/BrowserUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/FailedRunner.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Admin/UserManagement.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/CukesRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/UserManagementPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/Organization/GeneralInformationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/Qualifications/Skills.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Admin_StepDefinitions/UserManagement_StepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Admin/Qualification/Skills.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/CukesRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Admin_StepDefinitions/Qualifications/Skills_StepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/Qualifications/SkillsPage.java" />
       </list>
     </option>
   </component>
@@ -63,9 +108,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectId" id="1cK2UF0tpnL3S19VaLR0nZS1Llm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -136,6 +180,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="orangeHRM" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="orangeHRM" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminPages" type="462c0819:PsiDirectoryNode" />
+              <item name="Qualifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="orangeHRM" type="462c0819:PsiDirectoryNode" />
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -156,14 +223,88 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="orangeHRM" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin_StepDefinitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="orangeHRM" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin_StepDefinitions" type="462c0819:PsiDirectoryNode" />
+              <item name="Qualifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="orangeHRM" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Qualification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="default-cucumber-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orangeHRM_cucumber_2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orangeHRM_cucumber_2020" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,41 +407,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CukesRunner - 2020.06.03 at 16h 11m 55s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 17m 08s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 16h 46m 54s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 34m 08s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 16h 48m 24s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 40m 59s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 18h 10m 55s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 42m 23s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 21h 51m 22s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 43m 29s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 21h 52m 36s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 44m 17s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 22h 10m 39s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 49m 45s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 22h 11m 46s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 51m 20s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 22h 29m 40s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 09h 53m 18s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CukesRunner - 2020.06.03 at 22h 42m 09s.xml">
+    <history-entry file="CukesRunner - 2020.07.23 at 10h 02m 59s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.14749734" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.056443024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,15 +451,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.50120485" side_tool="true" weight="0.18311875" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4373494" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43762377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32673267" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,7 +470,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.19027181" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.10010649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,15 +479,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.50120485" side_tool="true" weight="0.18311875" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4373494" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28118813" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33012047" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32673267" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/FailedRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -509,40 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Admin_StepDefinitions/UserManagement_StepDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3021">
-          <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/UserManagementPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/utilities/BrowserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9329">
-          <caret line="505" column="5" selection-start-line="505" selection-start-column="5" selection-end-line="505" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -566,20 +667,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/utilities/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8721">
+          <caret line="473" column="32" selection-start-line="473" selection-start-column="32" selection-end-line="473" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Admin/UserManagement.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="53" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/UserManagementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Admin_StepDefinitions/UserManagement_StepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3557#3558#0" expanded="true" />
+            <element signature="e#3619#3620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Admin/Qualification/Skills.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/step_definitions/Admin_StepDefinitions/Qualifications/Skills_StepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="67" column="66" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/pages/AdminPages/Qualifications/SkillsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/orangeHRM/runners/CukesRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
