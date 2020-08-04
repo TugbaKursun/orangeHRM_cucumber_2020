@@ -7,11 +7,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
     @CucumberOptions(
 
-            tags = "@sortAlphabetically",
+            tags = "@editGeneralInfo",
             features = "src/test/resources/features/",
             glue = "com/orangeHRM/step_definitions",
-            dryRun =true,
-
+            dryRun =false,
             plugin =
                     {"json:target/cucumber.json",
                      "html:target/default-cucumber-reports",
